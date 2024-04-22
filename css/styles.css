@@ -88,7 +88,7 @@ body {
 }
 .header-address-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -167,9 +167,6 @@ body {
   background: #404bbf;
 }
 /* ================ FOCUS STYLES ================ */
-.section-focus {
-  padding-top: 112px;
-}
 .focus-list {
   display: flex;
   gap: 24px;
