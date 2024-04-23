@@ -66,7 +66,6 @@ body {
 /* ================ HEADER STYLES ================ */
 .page-top {
   border-bottom: 1px solid #e7e9fc;
-  margin-bottom: 8px;
 }
 .header-container {
   display: flex;
@@ -84,7 +83,6 @@ body {
 .header-list {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 .header-address-list {
   display: flex;
@@ -130,10 +128,7 @@ body {
 /* ================ HERO STYLES ================ */
 .main-banner {
   background: #2e2f42;
-  max-width: 1440px;
   padding: 188px 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 .main-title {
   font-size: 56px;
@@ -142,7 +137,7 @@ body {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -246,21 +241,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
-  margin-left: 16px;
 }
 /* ================ FOOTER STYLE ================ */
 .page-bottom {
   background: #2e2f42;
-  max-width: 1440px;
   padding-top: 100px;
   padding-bottom: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.footer-container {
-  max-width: 264px;
-  margin-left: 156px;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -287,4 +273,5 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
